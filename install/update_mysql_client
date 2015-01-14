@@ -1,0 +1,3 @@
+rpm -Uvh http://repo.webtatic.com/yum/el6/latest.rpm
+yum remove mysql mysql-*
+yum install mysql55w.x86_64 --enablerepo=webtatic
