@@ -2,7 +2,6 @@ set nocompatible
 set cindent
 set smartindent
 set hls
-set nocompatible
 set shiftwidth=4
 set tabstop=4
 set softtabstop=4
@@ -13,7 +12,6 @@ syntax on
 set hlsearch
 highlight Search term=reverse ctermbg=4 ctermfg=7
 
-set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
